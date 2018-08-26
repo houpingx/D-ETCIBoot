@@ -2,7 +2,7 @@
 General Information
 -------------------
 This directory contains the data set and codes we used in the following paper: 
-"Towards Confidence in the Truth: A Bootstrapping based Truth Discovery Approach"
+"Towards Confidence Interval Estimation in Truth Discovery"
 Houping Xiao, Jing Gao, Qi Li, Fenglong Ma, Lu Su, Yunlong Feng, Aidong Zhang 
 
 Any problem, please email: houpingx@buffalo.edu
@@ -19,7 +19,7 @@ Directory structure
 --------------------
 
     ETCIBoot
-    |-- ETCIBootV2.m             # Matlab codes for ETCIBoot method
+    |-- dist_etciboot.m             # Matlab codes for ETCIBoot method
 	|-- run.m                    # Matlab codes to run ETCIBoot method on the Indoor Floorplan data set
     |-- step_dataset.txt         # the Indoor Floorplan data set
 	|-- step_ground_truth.txt    # the corresponding ground truths for the Indoor Floorplan data set
